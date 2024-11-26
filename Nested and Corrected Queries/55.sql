@@ -1,0 +1,1 @@
+select name, hire_date from employee where hire_date = (select hire_date from employee where name = 'Jane Smith') and name <> 'Jane Smith'

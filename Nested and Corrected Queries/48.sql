@@ -1,0 +1,1 @@
+select name, salary from employee order by salary desc limit 1 offset 1
