@@ -1,0 +1,1 @@
+select dept_id, sum(salary) as total_salary from employee group by dept_id having sum(salary) < 100000

@@ -1,0 +1,1 @@
+select  Avg(salary) as avg_salary from employee group by dept_id having avg_salary > 55000
