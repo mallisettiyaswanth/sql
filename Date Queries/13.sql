@@ -1,0 +1,1 @@
+select * from employee where YEAR(hire_date) < 2019
