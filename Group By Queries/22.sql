@@ -1,0 +1,1 @@
+select avg(age) as avg_age, dept_id from employee group by dept_id

@@ -1,0 +1,1 @@
+select COUNT(*), YEAR(hire_date) as year from employee group by YEAR(hire_date)

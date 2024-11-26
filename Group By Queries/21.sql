@@ -1,0 +1,1 @@
+select Sum(salary) as salary, dept_id from employee group by dept_id

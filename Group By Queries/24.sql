@@ -1,0 +1,1 @@
+select MAX(salary) as max_salry, dept_id from employee group by dept_id
