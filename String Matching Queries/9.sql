@@ -1,0 +1,1 @@
+select * from employee where length(name) = 9
