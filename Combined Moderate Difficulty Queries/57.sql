@@ -1,0 +1,1 @@
+select avg(salary) from employee group by dept_id order by avg(salary) desc

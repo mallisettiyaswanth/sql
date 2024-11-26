@@ -1,0 +1,1 @@
+select name from employee where (hire_date) >= current_date - interval '2 years';

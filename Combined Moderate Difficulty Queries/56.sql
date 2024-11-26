@@ -1,0 +1,1 @@
+select Sum(salary) from employee where YEAR(hire_date) = '2020'

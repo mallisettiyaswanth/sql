@@ -1,0 +1,1 @@
+select avg(salary) as avg_salary, count(*) as employee_count  from employee group by dept_id having avg_salary > 55000 and employee_count > 1
