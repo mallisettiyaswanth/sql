@@ -1,0 +1,1 @@
+select avg(salary) as avg_salary, dept_id from employee group by dept_id

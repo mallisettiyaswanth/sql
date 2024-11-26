@@ -1,0 +1,1 @@
+select count(*) as dept_count, dept_id from employee group by dept_id
